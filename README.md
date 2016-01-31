@@ -13,3 +13,5 @@ npm i
 node server.js
 node client.js
 ```
+
+![ThriftBinaryUpload](https://raw.githubusercontent.com/tematema/ThriftBinaryUpload/master/image.jpg)
