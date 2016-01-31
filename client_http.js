@@ -2,10 +2,9 @@ var thrift = require('thrift');
 var DummyService = require('./gen-nodejs/DummyService');
 var fs = require('fs');
 
-
 var options = {
-  transport: thrift.TBufferedTransport,
-  protocol: thrift.TBinaryProtocol,
+  transport: thrift.TFramedTransport,
+  protocol: thrift.TCompactProtocol,
   path: '/dummy',
   headers: {'Connection': 'close'},
   https: false

@@ -5,8 +5,8 @@ var handlers = require('./lib/handlers');
 var dummySvcOpt = {
   handler: handlers,
   processor: DummyService,
-  protocol: thrift.TBinaryProtocol,
-  transport: thrift.TBufferedTransport
+  protocol: thrift.TCompactProtocol,
+  transport: thrift.TFramedTransport
 };
 
 var serverOpt = {
