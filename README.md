@@ -2,6 +2,11 @@
 
 Dummy service that allow to upload binary file.
 
+### TJSONProtocol and TBinaryProtocol
+* TJSONProtocol fails on binary data over http (should be base64 string).
+* TJSONProtocol is OK with binary data over sockets.
+* TBinaryProtocol is OK for http and sockets.
+
 ### Build
 ```
 thrift -r --gen js:node thrift-interface/dummy.thrift
