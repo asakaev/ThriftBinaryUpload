@@ -4,7 +4,7 @@ var fs = require('fs');
 
 var options = {
   transport: thrift.TFramedTransport,
-  protocol: thrift.TCompactProtocol,
+  protocol: thrift.TBinaryProtocol,
   path: '/dummy',
   headers: {'Connection': 'close'},
   https: false
