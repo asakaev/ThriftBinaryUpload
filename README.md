@@ -1,6 +1,6 @@
 # ThriftBinaryUpload
 
-Dummy service that allow to upload binary file.
+Dummy service that allows to upload a binary file.
 
 ### TJSONProtocol, TBinaryProtocol and TCompactProtocol
 * TJSONProtocol fails on binary data over http (should be base64 string)
