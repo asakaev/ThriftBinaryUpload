@@ -1,0 +1,24 @@
+{
+  "name": "thrift-binary-upload",
+  "version": "0.0.1",
+  "description": "Dummy service that allow to upload binary file.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Akhtyam Sakaev",
+  "license": "ISC",
+  "dependencies": {
+    "thrift": "^0.9.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tematema/ThriftBinaryUpload.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tematema/ThriftBinaryUpload/issues"
+  },
+  "homepage": "https://github.com/tematema/ThriftBinaryUpload#readme"
+}
